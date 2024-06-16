@@ -29,7 +29,7 @@ function foo(a$1$1, {b$1:b$1$1}, {c$1:c$1$1='c$1'}, {d$1:d$1$1}={
 }
 const ret = foo('a$1', {
 	b$1:'b$1'
-}, {}, undefined, undefined);
+}, {}, void 0, void 0);
 assert.deepStrictEqual(ret.main, ['a', 'b', 'c', 'd', 'e']);
 assert.deepStrictEqual(ret.names, ['a2', 'b2', 'c2', 'd2', 'e2']);
 assert.deepStrictEqual(ret.params, ['a$1', 'b$1', 'c$1', 'd$1', 'e$1']);
@@ -136,10 +136,8 @@ export { a, b, c, d, e };
 (19:30-19:37) " 'b$1' " --> (20:5-21:1) ":'b$1'\n"
 (19:37-19:39) "}," --> (21:1-21:3) "},"
 (19:39-19:41) " {" --> (21:3-21:5) " {"
-(19:41-19:43) "}," --> (21:5-21:7) "},"
-(19:43-19:54) " undefined," --> (21:7-21:18) " undefined,"
-(19:54-19:64) " undefined" --> (21:18-21:28) " undefined"
-(19:64-20:0) ")" --> (21:28-22:0) ");"
+(19:41-19:64) "}, undefined, undefined" --> (21:5-21:22) "}, void 0, void 0"
+(19:64-20:0) ")" --> (21:22-22:0) ");"
 (20:0-20:7) "\nassert" --> (22:0-22:7) "\nassert"
 (20:7-20:23) ".deepStrictEqual" --> (22:7-22:23) ".deepStrictEqual"
 (20:23-20:27) "(ret" --> (22:23-22:27) "(ret"

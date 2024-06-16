@@ -13,7 +13,7 @@ input_file: crates/rolldown/tests/esbuild/default/export_forms_common_js
 //#region a.js
 var abc;
 var init_a = __esmMin(() => {
-	abc = undefined;
+	abc = void 0;
 });
 
 //#endregion

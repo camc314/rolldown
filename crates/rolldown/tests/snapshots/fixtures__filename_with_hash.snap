@@ -8,12 +8,12 @@ expression: "snapshot_outputs.join(\"\\n\")"
 
 # tests/esbuild/dce/dce_of_destructuring
 
-- entry_js-!~{000}~.mjs => entry_js-NUMxwkF0.mjs
+- entry_js-!~{000}~.mjs => entry_js-46Mqpk8w.mjs
 
 # tests/esbuild/dce/dce_of_symbol_instances
 
 - class_js-!~{000}~.mjs => class_js-0LbkbQsz.mjs
-- object_js-!~{001}~.mjs => object_js-KvAEeKEP.mjs
+- object_js-!~{001}~.mjs => object_js-caBGvO2L.mjs
 
 # tests/esbuild/dce/dce_type_of
 
@@ -25,7 +25,7 @@ expression: "snapshot_outputs.join(\"\\n\")"
 
 # tests/esbuild/dce/drop_label_tree_shaking_bug_issue3311
 
-- entry_js-!~{000}~.mjs => entry_js-59ByNqoE.mjs
+- entry_js-!~{000}~.mjs => entry_js-O8YvDmyz.mjs
 
 # tests/esbuild/dce/import_re_export_of_namespace_import
 
@@ -219,11 +219,11 @@ expression: "snapshot_outputs.join(\"\\n\")"
 
 # tests/esbuild/default/export_forms_common_js
 
-- entry_js-!~{000}~.mjs => entry_js-xWiq8bVJ.mjs
+- entry_js-!~{000}~.mjs => entry_js-I3dpDNxE.mjs
 
 # tests/esbuild/default/export_forms_es6
 
-- entry_js-!~{000}~.mjs => entry_js-YWXAK9TG.mjs
+- entry_js-!~{000}~.mjs => entry_js-7kXN0zc_.mjs
 
 # tests/esbuild/default/exports_and_module_format_common_js
 
@@ -243,7 +243,7 @@ expression: "snapshot_outputs.join(\"\\n\")"
 
 # tests/esbuild/default/import_missing_common_js
 
-- entry_js-!~{000}~.mjs => entry_js-5QG1HtSQ.mjs
+- entry_js-!~{000}~.mjs => entry_js-WzgwFerC.mjs
 
 # tests/esbuild/default/import_then_catch
 
@@ -251,11 +251,11 @@ expression: "snapshot_outputs.join(\"\\n\")"
 
 # tests/esbuild/default/keep_names_class_static_name
 
-- entry_js-!~{000}~.mjs => entry_js-58TX80rw.mjs
+- entry_js-!~{000}~.mjs => entry_js-gF5jRopX.mjs
 
 # tests/esbuild/default/keep_names_tree_shaking
 
-- entry_js-!~{000}~.mjs => entry_js-kPEdNXLu.mjs
+- entry_js-!~{000}~.mjs => entry_js-TzQdJoXh.mjs
 
 # tests/esbuild/default/nested_common_js
 
@@ -336,11 +336,11 @@ expression: "snapshot_outputs.join(\"\\n\")"
 
 # tests/esbuild/default/require_resolve
 
-- entry_js-!~{000}~.mjs => entry_js-T0pStuyz.mjs
+- entry_js-!~{000}~.mjs => entry_js-skf8fgxB.mjs
 
 # tests/esbuild/default/require_with_call_inside_try
 
-- entry_js-!~{000}~.mjs => entry_js-CxNxWnzL.mjs
+- entry_js-!~{000}~.mjs => entry_js-GgQipyto.mjs
 
 # tests/esbuild/default/require_without_call
 
@@ -971,9 +971,9 @@ expression: "snapshot_outputs.join(\"\\n\")"
 
 # tests/esbuild/splitting/cross_chunk_assignment_dependencies
 
-- a-!~{000}~.mjs => a-iZ51lVRP.mjs
-- b-!~{001}~.mjs => b-sT36g6kV.mjs
-- shared-!~{002}~.mjs => shared-6Wj43OAN.mjs
+- a-!~{000}~.mjs => a-hAFuYd1y.mjs
+- b-!~{001}~.mjs => b-8iJAe8y8.mjs
+- shared-!~{002}~.mjs => shared-4dThoOCA.mjs
 
 # tests/esbuild/splitting/duplicate_chunk_collision
 
@@ -1135,7 +1135,7 @@ expression: "snapshot_outputs.join(\"\\n\")"
 
 # tests/fixtures/cjs_compat/require/create_require
 
-- main-!~{000}~.mjs => main-QHBkxGdq.mjs
+- main-!~{000}~.mjs => main-sx_ZUTRr.mjs
 
 # tests/fixtures/cjs_compat/require/require_cjs
 
@@ -1183,8 +1183,8 @@ expression: "snapshot_outputs.join(\"\\n\")"
 
 # tests/fixtures/deconflict/complex_params_patterns
 
-- main-!~{000}~.mjs => main-Zrcxr4ZB.mjs
-- main-Zrcxr4ZB.mjs.map
+- main-!~{000}~.mjs => main-ESsYbJAh.mjs
+- main-ESsYbJAh.mjs.map
 
 # tests/fixtures/deconflict/conflict_between_global_and_local_binding
 
@@ -1206,23 +1206,23 @@ expression: "snapshot_outputs.join(\"\\n\")"
 
 # tests/fixtures/deconflict/default_function
 
-- main-!~{000}~.mjs => main-VRCrf-4k.mjs
-- main-VRCrf-4k.mjs.map
+- main-!~{000}~.mjs => main-3G0l_aZs.mjs
+- main-3G0l_aZs.mjs.map
 
 # tests/fixtures/deconflict/issue_364
 
-- main-!~{000}~.mjs => main-U6qJK-X5.mjs
-- main-U6qJK-X5.mjs.map
+- main-!~{000}~.mjs => main-rluw1MAY.mjs
+- main-rluw1MAY.mjs.map
 
 # tests/fixtures/deconflict/wrapped_esm_default_function
 
-- main-!~{000}~.mjs => main-flIYecF5.mjs
-- main-flIYecF5.mjs.map
+- main-!~{000}~.mjs => main-iy35ThyM.mjs
+- main-iy35ThyM.mjs.map
 
 # tests/fixtures/deconflict/wrapped_esm_export_named_function
 
-- main-!~{000}~.mjs => main-WxSGAYAR.mjs
-- main-WxSGAYAR.mjs.map
+- main-!~{000}~.mjs => main-7pxK0Btd.mjs
+- main-7pxK0Btd.mjs.map
 
 # tests/fixtures/errors/missing_export
 
@@ -1321,11 +1321,11 @@ expression: "snapshot_outputs.join(\"\\n\")"
 
 # tests/fixtures/function/resolve/node_modules_as_entries
 
-- is-plain-obj-!~{000}~.mjs => is-plain-obj-Dt_cbNyE.mjs
+- is-plain-obj-!~{000}~.mjs => is-plain-obj-HBcCo2fi.mjs
 
 # tests/fixtures/function/resolve/resolve_node_modules_by_default
 
-- main-!~{000}~.mjs => main-HeHOuqTc.mjs
+- main-!~{000}~.mjs => main-qp8W7V-z.mjs
 
 # tests/fixtures/function/resolve/should_resolve_to_different_target_for_import_and_require
 
@@ -1447,9 +1447,9 @@ expression: "snapshot_outputs.join(\"\\n\")"
 
 # tests/fixtures/misc/reexport_star
 
-- a-!~{002}~.mjs => a-4roHQr_K.mjs
-- entry-!~{001}~.mjs => entry-xzi11mNl.mjs
-- main-!~{000}~.mjs => main-SrzlgFRC.mjs
+- a-!~{002}~.mjs => a-dSusQEgB.mjs
+- entry-!~{001}~.mjs => entry-S8Kp493N.mjs
+- main-!~{000}~.mjs => main-ZknNLgb1.mjs
 
 # tests/fixtures/misc/reexport_star_from_local_named_export
 
@@ -1474,11 +1474,11 @@ expression: "snapshot_outputs.join(\"\\n\")"
 
 # tests/fixtures/rollup/assignment-patterns
 
-- main-!~{000}~.mjs => main-05T5qctP.mjs
+- main-!~{000}~.mjs => main-4gQSaC9n.mjs
 
 # tests/fixtures/rollup/catch-scope-shadowing
 
-- main-!~{000}~.mjs => main-EoSIghki.mjs
+- main-!~{000}~.mjs => main-hIsPPl0H.mjs
 
 # tests/fixtures/rollup/object-spread-side-effect
 
@@ -1486,7 +1486,7 @@ expression: "snapshot_outputs.join(\"\\n\")"
 
 # tests/fixtures/rollup/preserve-for-of-iterable
 
-- main-!~{000}~.mjs => main-0YGlVLvV.mjs
+- main-!~{000}~.mjs => main-MNhUEaUk.mjs
 
 # tests/fixtures/rollup/same-binding
 

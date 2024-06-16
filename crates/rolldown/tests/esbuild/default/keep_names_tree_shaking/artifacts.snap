@@ -13,13 +13,15 @@ input_file: crates/rolldown/tests/esbuild/default/keep_names_tree_shaking
 function fnStmtKeep() {
 }
 x = fnStmtKeep;
-let fnExprKeep = function keep() {
+let fnExprRemove = function remove() {
+}, fnExprKeep = function keep() {
 };
 x = fnExprKeep;
 class clsStmtKeep {
 }
 new clsStmtKeep();
-let clsExprKeep = class keep {
+let clsExprRemove = class remove {
+}, clsExprKeep = class keep {
 };
 new clsExprKeep();
 

@@ -33,8 +33,7 @@ var bar_default = {
 
 //#endregion
 //#region main.js
-const a = 2;
-const {foo} = bar_default;
+const a = 2, {foo} = bar_default;
 assert.strictEqual(typeof foo, 'function');
 init_foo(),__toCommonJS(foo_ns);
 
@@ -63,15 +62,14 @@ init_foo(),__toCommonJS(foo_ns);
 - ../main.js
 (3:0-3:6) "\nconst" --> (53:0-53:6) "\nconst"
 (3:6-3:10) " a =" --> (53:6-53:10) " a ="
-(3:10-5:0) " 2; // make foo `a` conflict\n" --> (53:10-54:0) " 2;"
-(5:0-5:6) "\nconst" --> (54:0-54:6) "\nconst"
-(5:6-5:8) " {" --> (54:6-54:7) " "
-(5:8-5:13) " foo " --> (54:7-54:11) "{foo"
-(5:13-5:16) "} =" --> (54:11-54:14) "} ="
-(5:16-7:0) " bar\n" --> (54:14-55:0) " bar_default;"
-(7:0-7:7) "\nassert" --> (55:0-55:7) "\nassert"
-(7:7-7:26) ".strictEqual(typeof" --> (55:7-55:26) ".strictEqual(typeof"
-(7:26-7:31) " foo," --> (55:26-55:31) " foo,"
-(7:31-7:42) " 'function'" --> (55:31-55:42) " 'function'"
-(7:42-9:0) ")\n" --> (55:42-56:0) ");"
-(9:0-9:17) "\nrequire('./foo')" --> (56:0-59:34) "\ninit_foo(),__toCommonJS(foo_ns);\n\n//#endregion\n//# sourceMappingURL=main.mjs.map"
+(3:10-5:6) " 2; // make foo `a` conflict\n\nconst" --> (53:10-53:13) " 2,"
+(5:6-5:8) " {" --> (53:13-53:14) " "
+(5:8-5:13) " foo " --> (53:14-53:18) "{foo"
+(5:13-5:16) "} =" --> (53:18-53:21) "} ="
+(5:16-7:0) " bar\n" --> (53:21-54:0) " bar_default;"
+(7:0-7:7) "\nassert" --> (54:0-54:7) "\nassert"
+(7:7-7:26) ".strictEqual(typeof" --> (54:7-54:26) ".strictEqual(typeof"
+(7:26-7:31) " foo," --> (54:26-54:31) " foo,"
+(7:31-7:42) " 'function'" --> (54:31-54:42) " 'function'"
+(7:42-9:0) ")\n" --> (54:42-55:0) ");"
+(9:0-9:17) "\nrequire('./foo')" --> (55:0-58:34) "\ninit_foo(),__toCommonJS(foo_ns);\n\n//#endregion\n//# sourceMappingURL=main.mjs.map"

@@ -40,7 +40,7 @@ const iterate = iterable => {
 
 //#endregion
 //#region main.js
-assert.equal(dirty, undefined);
+assert.equal(dirty, void 0);
 iterate(zeroToFive);
 assert.equal(dirty, 5);
 

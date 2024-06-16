@@ -1,5 +1,6 @@
 use std::path::Path;
 
+use oxc::minifier::CompressOptions;
 use oxc::span::SourceType;
 use oxc::transformer::{TransformOptions, Transformer};
 use rolldown_oxc_utils::OxcAst;
@@ -44,6 +45,22 @@ pub fn pre_process_ast(
   }) {
     return Err(anyhow::anyhow!("Transform failed, got {:#?}", errors));
   }
+
+  ast.with_mut(|fields| {
+    oxc::minifier::Compressor::new(
+      fields.allocator,
+      CompressOptions {
+        booleans: false,
+        drop_debugger: false,
+        drop_console: false,
+        evaluate: false,
+        join_vars: false,
+        loops: false,
+        typeofs: false,
+      },
+    )
+    .build(fields.program);
+  });
 
   tweak_ast_for_scanning(&mut ast);
 

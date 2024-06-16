@@ -15,7 +15,7 @@ var a_ns = {};
 __export(a_ns, {
 	abc:() => abc
 });
-const abc = undefined;
+const abc = void 0;
 
 //#endregion
 export { a_ns };

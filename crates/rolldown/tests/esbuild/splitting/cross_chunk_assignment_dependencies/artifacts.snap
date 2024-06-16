@@ -26,8 +26,7 @@ import "./shared.mjs";
 ```js
 
 //#region shared.js
-var observer;
-var value;
+var observer, value;
 function getValue() {
 	return value;
 }
