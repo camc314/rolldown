@@ -1,0 +1,35 @@
+crates/rolldown/src/stages/generate_stage/minify_chunks.rs
+  s_8d5c341ef39b90::t_f3a1f70c0ed1bf 26-27,49,118,140-142,145-148
+crates/rolldown_binding/src/types/binding_normalized_options.rs
+  s_8d5c341ef39b90::t_7dc657e9cf92a9 298
+crates/rolldown_binding/src/utils/minify_options_conversion.rs
+  s_8d5c341ef39b90::t_c3d6910e08dfcb 79,83
+crates/rolldown_binding/src/utils/normalize_binding_options.rs
+  s_8d5c341ef39b90::t_ba36030b279370 694-697
+crates/rolldown_common/src/inner_bundler_options/types/minify_options.rs
+  s_8d5c341ef39b90::t_a3a10fa47eacb6 113,145,165-171,187,214,242
+packages/rolldown/src/binding.d.cts
+  s_8d5c341ef39b90::t_3ab3e06bf8f258 23-40
+packages/rolldown/src/rolldown-binding.wasi.d.cts
+  s_8d5c341ef39b90::t_a33c7a1fdea394 18-35
+packages/rolldown/src/utils/validator.ts
+  s_8d5c341ef39b90::t_4cbcf66ead427f 513
+packages/rolldown/tests/behaviors/minify-ascii-only.test.ts
+  s_8d5c341ef39b90::t_0a2ca5d4850272 1-40
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "2bdba298629316ff68f53de8713bc9b80eb2d0ab",
+  "prompts": {},
+  "sessions": {
+    "s_8d5c341ef39b90": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019fd2a4-9dd6-7050-9aa2-fd882e51e24d",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Cameron <cameron.clark@hey.com>"
+    }
+  }
+}
