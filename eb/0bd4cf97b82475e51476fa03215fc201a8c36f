@@ -1,0 +1,113 @@
+Cargo.lock
+  s_9a79218a8bb652::t_f3459a7b1b37ec 1573,1611,1624,1641,1652,1663,1684,1696,1704,1721,1741,1762,1779,1797,1822,1844,1859,1882,1898,1955,1993,2006,2018,2038,2052,2081,2103
+Cargo.toml
+  s_8d5c341ef39b90::t_88024fbfeaab44 269,280-289
+crates/rolldown/src/utils/chunk/render_chunk_exports.rs
+  s_9a79218a8bb652::t_d969dd7dffad53 442-444
+crates/rolldown/tests/esbuild/default/forbid_string_import_names_bundle/artifacts.snap
+  s_8d5c341ef39b90::t_d44c12ab3cf20f 24
+crates/rolldown/tests/esbuild/default/string_export_names_common_js/artifacts.snap
+  s_8d5c341ef39b90::t_7a6c72c2570c40 19-24
+crates/rolldown/tests/esbuild/default/string_export_names_iife/artifacts.snap
+  s_8d5c341ef39b90::t_c5d35bdf890b33 35-40
+crates/rolldown/tests/esbuild/lower/lower_using_hoisting/artifacts.snap
+  s_8d5c341ef39b90::t_319f051884b151 194-195
+crates/rolldown/tests/esbuild/splitting/splitting_circular_reference_issue251/artifacts.snap
+  s_8d5c341ef39b90::t_f85cec062778e0 22
+crates/rolldown/tests/esbuild/splitting/splitting_re_export_issue273/artifacts.snap
+  s_8d5c341ef39b90::t_4f03e02ec20859 19
+crates/rolldown/tests/rolldown/code_splitting/issue_5276/artifacts.snap
+  s_8d5c341ef39b90::t_708bf78644b9b7 78,85,92
+crates/rolldown/tests/rolldown/function/advanced_chunks/basic/artifacts.snap
+  s_8d5c341ef39b90::t_7958235ca63450 9,16,40,47
+crates/rolldown/tests/rolldown/function/advanced_chunks/tags_initial/artifacts.snap
+  s_8d5c341ef39b90::t_083ed8177faffe 40
+crates/rolldown/tests/rolldown/function/experimental/attach_debug_info/eliminated_facade_chunk/artifacts.snap
+  s_8d5c341ef39b90::t_b5ad9f994c35f1 53,72
+crates/rolldown/tests/rolldown/function/experimental/strict_execution_order/cjs_reexport_barrel_monolithic_require_namespace/artifacts.snap
+  s_8d5c341ef39b90::t_ccf145a6f2c939 52-53,58-60,116-117,122-124
+crates/rolldown/tests/rolldown/function/external/external_interop_default_reexport_only_reachable_via_entry_export/artifacts.snap
+  s_8d5c341ef39b90::t_aaf1871cad8721 29-34
+crates/rolldown/tests/rolldown/function/external/external_interop_only_reachable_via_entry_export/_test.mjs
+  s_8d5c341ef39b90::t_9762cbb9f900ca 1-18
+crates/rolldown/tests/rolldown/function/external/external_interop_only_reachable_via_entry_export/artifacts.snap
+  s_8d5c341ef39b90::t_85d070270a1d4f 23-28
+crates/rolldown/tests/rolldown/function/format/export_proto_from/artifacts.snap
+  s_8d5c341ef39b90::t_a8ccac1b4733c7 9
+crates/rolldown/tests/rolldown/issues/10734/artifacts.snap
+  s_8d5c341ef39b90::t_2f46ec31efca9f 77
+crates/rolldown/tests/rolldown/issues/3456/_config.json
+  s_8d5c341ef39b90::t_050d601c9cd392 7-8,10
+crates/rolldown/tests/rolldown/issues/3456/_test.mjs
+  s_8d5c341ef39b90::t_22a5e6b7574ffe 1-22
+crates/rolldown/tests/rolldown/issues/3456/artifacts.snap
+  s_9a79218a8bb652::t_4ca0b44c1ab74b 9,13,22-27
+crates/rolldown/tests/rolldown/issues/6010/artifacts.snap
+  s_8d5c341ef39b90::t_d919f817d68613 17
+crates/rolldown/tests/rolldown/issues/8252/artifacts.snap
+  s_8d5c341ef39b90::t_12539f636defbe 26
+crates/rolldown/tests/rolldown/issues/8595/artifacts.snap
+  s_8d5c341ef39b90::t_4f153bd44945ca 84
+crates/rolldown/tests/rolldown/issues/rolldown_vite_593/artifacts.snap
+  s_8d5c341ef39b90::t_b76339d81237ee 32
+crates/rolldown/tests/rolldown/misc/circular_star_reexport_long_cycle_direct_consumer/artifacts.snap
+  s_8d5c341ef39b90::t_cdce72b715557b 10,25
+crates/rolldown/tests/rolldown/misc/circular_star_reexport_long_cycle_shared_consumer/artifacts.snap
+  s_8d5c341ef39b90::t_af614cef4367e7 10,25
+crates/rolldown/tests/rolldown/misc/circular_star_reexport_preserve_modules_cycle_first/artifacts.snap
+  s_8d5c341ef39b90::t_00c0ccc1ea1589 10,26
+crates/rolldown/tests/rolldown/misc/circular_star_reexport_preserve_modules_resolution_first/artifacts.snap
+  s_8d5c341ef39b90::t_eb4824e1ffa48d 9,26
+crates/rolldown/tests/rolldown/misc/duplicate_entries/artifacts.snap
+  s_8d5c341ef39b90::t_d84471e3aa59b5 19
+crates/rolldown/tests/rolldown/misc/preserve_modules/issue-4647-2/artifacts.snap
+  s_8d5c341ef39b90::t_73948b7f6f17e6 9
+crates/rolldown/tests/rolldown/misc/preserve_modules/issue_4698/artifacts.snap
+  s_8d5c341ef39b90::t_0eb2f577e6bedf 29,36
+crates/rolldown/tests/rolldown/misc/preserve_modules/multi_entry/artifacts.snap
+  s_8d5c341ef39b90::t_f0af402f0d9e4f 9,26
+crates/rolldown/tests/rolldown/misc/reexport_star/artifacts.snap
+  s_8d5c341ef39b90::t_dcf8e4f96c9bc7 20,27
+crates/rolldown/tests/rolldown/optimization/chunk_merging/allow_extension_exports/artifacts.snap
+  s_8d5c341ef39b90::t_09748f7771f28e 26
+crates/rolldown/tests/rolldown/optimization/chunk_merging/dynamic_dominator_with_exports_namespace_extraction/artifacts.snap
+  s_8d5c341ef39b90::t_469787417ecd5d 25
+crates/rolldown/tests/rolldown/optimization/pife_for_module_wrappers/basic/artifacts.snap
+  s_8d5c341ef39b90::t_5dd65816961569 9,16
+crates/rolldown/tests/rolldown/optimization/pife_for_module_wrappers/disabled/artifacts.snap
+  s_8d5c341ef39b90::t_8d89483431b1c4 9,16
+crates/rolldown/tests/rolldown/topics/cjs_module_lexer_compat/import_and_reexport/artifacts.snap
+  s_8d5c341ef39b90::t_c62ecbdc80623d 11-16
+crates/rolldown/tests/rolldown/topics/preserve_semantic_of_entries_exports/named_export_in_shared_entries/artifacts.snap
+  s_8d5c341ef39b90::t_df6fb873d6ea1e 20
+crates/rolldown/tests/rolldown/topics/tla/strict_entry_also_imported/artifacts.snap
+  s_8d5c341ef39b90::t_9aa8192ac19d73 9,97
+packages/rolldown/tests/fixtures/lazy-barrel/treeshake-behavior/case-own-export-default/_config.ts
+  s_9a79218a8bb652::t_5f6cf842e30b46 49-52,61,66
+packages/rolldown/tests/fixtures/lazy-barrel/treeshake-behavior/case-own-export/_config.ts
+  s_9a79218a8bb652::t_ca0e6476315857 48-51,60,65
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "eb0bd4cf97b82475e51476fa03215fc201a8c36f",
+  "prompts": {},
+  "sessions": {
+    "s_8d5c341ef39b90": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019fd2a4-9dd6-7050-9aa2-fd882e51e24d",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "Cameron <cameron.clark@hey.com>"
+    },
+    "s_9a79218a8bb652": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0f28c-c88e-7052-a3a6-320472f5274a",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "Cameron <cameron.clark@hey.com>"
+    }
+  }
+}
