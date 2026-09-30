@@ -1,0 +1,27 @@
+crates/rolldown/src/utils/chunk/render_chunk_exports.rs
+  s_9a79218a8bb652::t_fe8b27402422d0 442-444,458-460
+crates/rolldown/tests/rolldown/topics/live_bindings/escaped_export_names/_config.json
+  s_9a79218a8bb652::t_e3fba034213f9f 1-5
+crates/rolldown/tests/rolldown/topics/live_bindings/escaped_export_names/_test.mjs
+  s_9a79218a8bb652::t_7efb2e4b0e0495 1-11
+crates/rolldown/tests/rolldown/topics/live_bindings/escaped_export_names/artifacts.snap
+  s_9a79218a8bb652::t_4da53859fa086e 1-24
+crates/rolldown/tests/rolldown/topics/live_bindings/escaped_export_names/main.js
+  s_9a79218a8bb652::t_6f283dce8b8a6d 1-7
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "df1e3c883071c7f7a8c9f5bba6e17da24a02e8a4",
+  "prompts": {},
+  "sessions": {
+    "s_9a79218a8bb652": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0f28c-c88e-7052-a3a6-320472f5274a",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "Cameron <cameron.clark@hey.com>"
+    }
+  }
+}
