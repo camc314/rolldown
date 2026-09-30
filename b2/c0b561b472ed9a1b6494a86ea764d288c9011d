@@ -1,0 +1,51 @@
+crates/rolldown/src/utils/chunk/render_chunk_exports.rs
+  s_9a79218a8bb652::t_29745f78856ece 513-518
+crates/rolldown/tests/esbuild/default/string_export_names_common_js/artifacts.snap
+  s_9a79218a8bb652::t_b453b3eb54671d 19-24
+crates/rolldown/tests/esbuild/default/string_export_names_iife/artifacts.snap
+  s_9a79218a8bb652::t_8447b42cdf265c 35-40
+crates/rolldown/tests/rolldown/function/external/external_interop_default_reexport_only_reachable_via_entry_export/artifacts.snap
+  s_9a79218a8bb652::t_88615689777aea 29-34
+crates/rolldown/tests/rolldown/function/external/external_interop_only_reachable_via_entry_export/artifacts.snap
+  s_9a79218a8bb652::t_6b793ec21a387f 23-28
+crates/rolldown/tests/rolldown/function/external/external_named_export_live_bindings/_config.json
+  s_9a79218a8bb652::t_851d01b7a93732 1-13
+crates/rolldown/tests/rolldown/function/external/external_named_export_live_bindings/_test.mjs
+  s_9a79218a8bb652::t_e0f8f52ab94c8e 1-29
+crates/rolldown/tests/rolldown/function/external/external_named_export_live_bindings/artifacts.snap
+  s_9a79218a8bb652::t_11e36ddc46007a 1-98
+crates/rolldown/tests/rolldown/function/external/external_named_export_live_bindings/imported-barrel.js
+  s_9a79218a8bb652::t_3618c0c3921288 1
+crates/rolldown/tests/rolldown/function/external/external_named_export_live_bindings/imported.js
+  s_9a79218a8bb652::t_0d89418b4a1cd3 1-3
+crates/rolldown/tests/rolldown/function/external/external_named_export_live_bindings/reexported-barrel.js
+  s_9a79218a8bb652::t_56029ff55b75a9 1
+crates/rolldown/tests/rolldown/function/external/external_named_export_live_bindings/reexported.js
+  s_9a79218a8bb652::t_a54f17b634c5f8 1
+crates/rolldown/tests/rolldown/issues/3456/artifacts.snap
+  s_9a79218a8bb652::t_5479bedf2329bf 23-28
+crates/rolldown/tests/rolldown/topics/cjs_module_lexer_compat/import_and_reexport/artifacts.snap
+  s_9a79218a8bb652::t_21af02da3de32b 11-16
+internal-docs/linking/external-live-bindings/design.md
+  s_9a79218a8bb652::t_bd33bb9b425f76 1-70
+internal-docs/linking/external-live-bindings/implementation.md
+  s_9a79218a8bb652::t_0e74679704b794 1-98
+packages/rolldown/tests/behaviors/external-live-bindings.test.ts
+  s_9a79218a8bb652::t_bb893e77454390 1-161
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "b2c0b561b472ed9a1b6494a86ea764d288c9011d",
+  "prompts": {},
+  "sessions": {
+    "s_9a79218a8bb652": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0f28c-c88e-7052-a3a6-320472f5274a",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "Cameron <cameron.clark@hey.com>"
+    }
+  }
+}
