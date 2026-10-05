@@ -1,0 +1,19 @@
+crates/rolldown/tests/rolldown/function/external/external_named_export_live_bindings/artifacts.snap
+  s_f1e80c140084b9::t_f135146447c5c4 71,78,85,92
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "03da1740842581bb583ee5746eff6f9160bad4c7",
+  "prompts": {},
+  "sessions": {
+    "s_f1e80c140084b9": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a10c84-ee99-72d3-ae99-674104616726",
+        "model": "unknown"
+      },
+      "human_author": "Cameron <cameron.clark@hey.com>"
+    }
+  }
+}
