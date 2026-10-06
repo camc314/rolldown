@@ -1,0 +1,23 @@
+Cargo.lock
+  s_8d5c341ef39b90::t_091229e7e3d51e 1578-1580,1617-1619,1631-1633,1649-1651,1661-1663,1673-1675,1695-1697,1708-1710,1717-1719,1735-1737,1756-1758,1778-1780,1796-1798,1815-1817,1841-1843,1864-1866,1880-1882,1904-1906,1921-1923,1979-1981,2018-2020,2032-2034,2045-2047,2066-2068,2081-2083,2111-2113,2134-2136
+Cargo.toml
+  s_8d5c341ef39b90::t_8a46cefe56bfd1 275,286-293
+crates/rolldown_plugin_oxc_runtime/src/generated/embedded_helpers.rs
+  s_8d5c341ef39b90::t_b0d6a24f4214ae 5,10
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "358ade904b83de6af00623f8ec968477b8b1ff25",
+  "prompts": {},
+  "sessions": {
+    "s_8d5c341ef39b90": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019fd2a4-9dd6-7050-9aa2-fd882e51e24d",
+        "model": "unknown"
+      },
+      "human_author": "Cameron <cameron.clark@hey.com>"
+    }
+  }
+}
