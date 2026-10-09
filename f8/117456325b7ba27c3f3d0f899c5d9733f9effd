@@ -1,0 +1,23 @@
+Cargo.lock
+  s_8d5c341ef39b90::t_e9af1e10b874da 335,587,1432,1579,1617,1630,1647,1658,1669,1690,1702,1710,1727,1747,1768,1785,1803,1828,1850,1865,1888,1904,1961,1999,2012,2024,2044,2058,2087,2109,3350,3680,3699,4103
+Cargo.toml
+  s_8d5c341ef39b90::t_ef60f59f0b9b99 275,286-295
+crates/rolldown/tests/esbuild/default/bundle_esm_with_nested_var_issue4348/artifacts.snap
+  s_8d5c341ef39b90::t_cb471518f91bd1 16-17
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "f8117456325b7ba27c3f3d0f899c5d9733f9effd",
+  "prompts": {},
+  "sessions": {
+    "s_8d5c341ef39b90": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019fd2a4-9dd6-7050-9aa2-fd882e51e24d",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "Cameron <cameron.clark@hey.com>"
+    }
+  }
+}
