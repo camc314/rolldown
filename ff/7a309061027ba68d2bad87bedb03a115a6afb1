@@ -1,0 +1,23 @@
+Cargo.lock
+  s_3ba160c37d8bbc::t_e1df9851ac0ff2 1584,1586,1623,1625,1637,1639,1655,1657,1667,1669,1679,1681,1701,1703,1714,1716,1723,1725,1741,1743,1759,1764,1766,1770,1786,1788,1804,1806,1823,1825,1849,1851,1872,1874,1888,1890,1912,1914,1929,1931,1987,1989,2026,2028,2040,2042,2054,2056,2070,2075,2077,2090,2092,2120,2122,2143,2145,4387-4392
+Cargo.toml
+  s_3ba160c37d8bbc::t_2f00b6b57d389a 279,290-297
+crates/rolldown/tests/integration/snapshots/integration__test262__test262_module_code.snap
+  s_3ba160c37d8bbc::t_d0e83b64ae7e46 665,672,679
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "ff7a309061027ba68d2bad87bedb03a115a6afb1",
+  "prompts": {},
+  "sessions": {
+    "s_3ba160c37d8bbc": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1a0ba-5fd1-70d3-a0d9-b25e5de0623d",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "Cameron <cameron.clark@hey.com>"
+    }
+  }
+}
